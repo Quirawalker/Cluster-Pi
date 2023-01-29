@@ -1,0 +1,9 @@
+import os
+
+Slave_1 = "ssh pi@169.254.116.239 sudo shutdown -h now"
+Master = "sudo shutdown -h now"
+pwrd_Slave_1 = os.system(Slave_1)
+pwrd_Master = os.system(Master)
+
+print(pwrd_Slave_1)
+print(pwrd_Master)
