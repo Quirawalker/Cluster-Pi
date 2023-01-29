@@ -1,0 +1,10 @@
+import os
+import time
+
+print("Master Temp: ")
+time.sleep(1)
+os.system("vcgencmd measure_temp")
+time.sleep(1)
+print("Slave1 Temp: ")
+time.sleep(1)
+os.system('ssh pi@169.254.116.239 vcgencmd measure_temp')
