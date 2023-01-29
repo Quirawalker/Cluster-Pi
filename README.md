@@ -1,2 +1,4 @@
 # Cluster-Pi
-This is going to be an Instructional Repository for how I made my Pi Cluster and also my continuing work on it as I add new features.
+This is to hold some of my Pi Cluster codes.
+They will include power-down sequences, system information calls 
+from all nodes, and more... hopefully.
