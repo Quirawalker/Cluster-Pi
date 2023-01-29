@@ -1,0 +1,15 @@
+You are going to start with you Master Node first. Get it up and running and set up how you want it.
+
+Now we begin the Setup to get it ready for use in the Cluster before we copy the Micro SD for use in the Slave Node.
+
+Reboot as needed through out this process.
+
+Step 1-
+	~Enter the Terminal and type:
+		sudo raspi-config
+	~Enable SSH under 
+		"Interface Options > SSH"
+	~Then change the host name under 
+		"System options > Host name"
+    Change it to something like "Master" you'll
+    need it later. 
